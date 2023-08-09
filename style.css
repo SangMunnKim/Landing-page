@@ -1,14 +1,34 @@
 body {
     font-family: roboto, helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
-    align-content: center;
+}
+
+.Header {
+    display: flex; 
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.Hero {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .Content {
-    display:flex;
+    flex: 1;
+    display: flex;
     flex-flow: column nowrap;
-    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
     border: 2px solid red;
+}
+
+.Footer {
+    display: flex;
+    background-color: #1F2937;
 }

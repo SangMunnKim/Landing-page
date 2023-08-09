@@ -12,11 +12,29 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 70px;
+    border: 2px solid red;
+   
 }
+
+.HeaderLogo {
+    display: flex;
+    gap: 10px;
+}
+
+.HeaderLogo span {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
 .Header img { 
     height: auto;
-    width: 100px;
+    width: 70px;
 }
+
+
+
 .Hero {
     display: flex;
     background-color: #1F2937;
@@ -30,6 +48,15 @@ body {
     justify-content: space-between;
     align-items: center;
     border: 2px solid red;
+    margin: 30px 70px 40px;
+}
+.Content .section1, 
+.Content .section2, 
+.Content .section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
 }
 
 .Footer {
@@ -38,10 +65,17 @@ body {
 }
 
 ul {
+    display: flex;   
     list-style: none;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
 }
 
 li {
     display: inline;
+    color:#e5e7eb;
+    font-size: 18px;
+    border: 2px solid red;
 }

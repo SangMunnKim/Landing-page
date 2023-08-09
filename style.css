@@ -11,8 +11,12 @@ body {
     display: flex; 
     background-color: #1F2937;
     color: #F9FAF8;
+    justify-content: space-between;
 }
-
+.Header img { 
+    height: auto;
+    width: 100px;
+}
 .Hero {
     display: flex;
     background-color: #1F2937;
@@ -31,4 +35,13 @@ body {
 .Footer {
     display: flex;
     background-color: #1F2937;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
 }

@@ -1,42 +1,48 @@
 body {
     font-family: roboto, helvetica, sans-serif;
-    height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
     display: flex;
     flex-flow: column nowrap;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("./img/firewood-stacked.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 .Header {
     display: flex; 
-    background-color: rgb(24, 3, 3);
+    /* background-color: #1F2937; */
     color: #F9FAF8;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px 70px;
-    border: 2px solid red;
-   
+    align-items: center;
+    padding: 20px 70px;   
 }
 
 .HeaderLogo {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .HeaderLogo span {
-    color: #F9FAF8;
     font-size: 24px;
+
 }
 
 .Header img { 
     height: auto;
-    width: 70px;
+    width: 40px;
 }
 
 .Hero {
     display: flex;
-    background-color: #1F2937;
-    text-shadow: 2px 2px 10px rgb(164, 98, 11);
+    /* background-color: #1F2937; */
     padding: 20px 70px;
     flex-basis: 1000px;
 }
@@ -44,20 +50,14 @@ body {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
-}
-.HeroImage {
-    background-image: url("./img/firewood-stacked.jpg");
-    background-size: cover;
-    background-position: center;
-    position: relative;
-
+    text-shadow: 2px 2px 10px rgb(164, 98, 11);
 }
 
 .Hero div {
     flex-basis: 1000px;
 }
 .Content {
-    flex: 1;
+    height: 80vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -65,7 +65,6 @@ body {
     border: 2px solid red;
     padding: 30px 70px 40px;
 }
-
 
 .Content .section1, 
 .Content .section2, 
@@ -79,6 +78,9 @@ body {
 .Footer {
     display: flex;
     background-color: #1F2937;
+    padding: 30px 70px;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -92,11 +94,29 @@ ul {
 
 li {
     display: inline;
-    border: 2px solid red;
+}
+a {
+    text-decoration: none;
+
 }
 
-li, 
-.secondaryTxt {
+button {
+    height: 30px;
+    width: 100px;
+    background-color: #1F2937;
+    border-radius: 5px;
+    border:none;
+    color:#e5e7eb;
+}
+button:hover {background-color: orange;}
+button:active {transform: translateY(5px);}
+
+.HeaderLogo,
+li,
+a, 
+.secondaryTxt,
+.Footer {
     color:#e5e7eb;
     font-size: 18px;
+    text-shadow: 2px 2px 10px rgb(164, 98, 11);
 }

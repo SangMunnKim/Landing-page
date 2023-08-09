@@ -1,0 +1,14 @@
+body {
+    font-family: roboto, helvetica, sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.Content {
+    display:flex;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    border: 2px solid red;
+}

@@ -1,9 +1,10 @@
 body {
     font-family: roboto, helvetica, sans-serif;
     margin: 0;
-    overflow: auto;
+    overflow: scroll;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
+    justify-content: space-between;
 }
 .intro {
     display: flex;
@@ -57,28 +58,41 @@ body {
     flex-basis: 1000px;
 }
 .Content {
-    height: 80vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    align-items: center;
-    border: 2px solid red;
-    padding: 30px 70px 40px;
+    overflow: scroll;
 }
 
 .Content .section1, 
-.Content .section2, 
+/* .Content .section2,  */
 .Content .section3 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid red;
+    padding: 50px 300px;
+    background-color: #242424;
+    
 }
+
+
 .Content .section1 .images {
     display: flex;
+    justify-content: center;
+    align-items: stretch;
     gap: 50px;
+    
 }
+
+.Content .section1 .images div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 150px;
+    border: 2px solid green;
+
+}
+
 .Content .section1 .images img {
     width: 150px;
     height:150px;
@@ -87,10 +101,42 @@ body {
     border-radius: 8px;
 }
 
+.Content .section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 300px;
+    background-color: #626060;
+    gap: 0px;
+    border:2px solid red;
+    
+}
+
+.Content .section2 p,
+.Content .section2 .quote
+ {
+    display: flex;
+    width: 800px;
+    border: 2px solid red;
+    margin: 0px;
+}
+
+.Content .section2 p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.Content .section2 .quote {
+    justify-content: flex-end;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 
 .Footer {
     display: flex;
-    background-color: #1F2937;
+    background-color: #3b0909;
     padding: 30px 70px;
     justify-content: center;
     align-items: center;
@@ -129,7 +175,25 @@ li,
 a, 
 .secondaryTxt,
 .Footer {
-    color:#e5e7eb;
     font-size: 18px;
+}
+
+.HeaderLogo,
+li,
+a, 
+.secondaryTxt,
+.Footer,
+.Content .section1 h1,
+.Content .section2 p,
+.Content .section3 .leftside {
+    color:#e5e7eb;
     text-shadow: 2px 2px 10px rgb(164, 98, 11);
 }
+
+.Content .section2 .quote {
+    color:#bcc9e3;
+    text-shadow: 2px 2px 10px rgb(235, 210, 177);
+
+}
+
+

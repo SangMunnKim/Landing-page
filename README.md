@@ -8,7 +8,7 @@ Mainpage background photo: Photo by <a href="https://unsplash.com/@matreding?utm
 Photos used in the card, from left to right:
 - Image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1867275">Pexels</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1867275">Pixabay</a>
 
--Image by <a href="https://pixabay.com/users/theujulala-59978/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1288420">TheUjulala</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1288420">Pixabay</a>
+- Image by <a href="https://pixabay.com/users/theujulala-59978/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1288420">TheUjulala</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1288420">Pixabay</a>
 
 - Image by <a href="https://pixabay.com/users/adonyig-4265448/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2915539">Gábor Adonyi</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2915539">Pixabay</a>
 

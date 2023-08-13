@@ -93,9 +93,10 @@ body {
     width: 150px;
     height:150px;
     object-fit: cover;
-    border: 3px solid #3882f6;
+    border: 2px solid orange;
     border-radius: 8px;
 }
+
 
 .Content .section2 {
     display: flex;
@@ -217,13 +218,14 @@ a,
 .Footer,
 .Content .section1 h1,
 .Content .section2 p,
-.Content .section3 .leftside {
+.Content .section3 .leftside,
+.Content .section1 .images p {
     color:#e5e7eb;
     text-shadow: 2px 2px 10px rgb(164, 98, 11);
 }
 
 .Content .section2 .quote {
-    color:#bcc9e3;
+    color:gold;
     text-shadow: 2px 2px 10px rgb(235, 210, 177);
 
 }

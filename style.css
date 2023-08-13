@@ -64,16 +64,14 @@ body {
     overflow: scroll;
 }
 
-.Content .section1, 
-/* .Content .section2,  */
-.Content .section3 {
+.Content .section1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 50px 300px;
     background-color: #242424;
-    
+    border: 2px solid red;  
 }
 
 
@@ -133,6 +131,34 @@ body {
     font-weight: 500;
 }
 
+.Content .section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    background-color: #242424;
+    border: 2px solid red;
+    
+}
+.Content .section3 .container {
+    flex-basis: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 2px solid red;
+    background-color: hsl(217, 61%, 13%);
+    padding: 50px 80px;
+}
+
+.Content .section3 .container h3 {
+    margin-top: 0;
+}
+
+.Content .section3 .container p {
+    margin-bottom: 0;
+}
+
+
 
 .Footer {
     display: flex;
@@ -159,7 +185,7 @@ a {
 
 }
 
-button {
+.Hero button {
     height: 30px;
     width: 100px;
     background-color: #1F2937;
@@ -167,8 +193,21 @@ button {
     border:none;
     color:#e5e7eb;
 }
-button:hover {background-color: orange;}
-button:active {transform: translateY(5px);}
+.Hero button:hover {background-color: orange;}
+.Hero button:active {transform: translateY(5px);}
+
+
+.Content .section3 button {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 130, 130);
+    border-radius: 5px;
+    border: 2px;
+    color:#e5e7eb;
+}
+.Content .section3 button:hover {background-color: rgb(138, 138, 4);}
+.Content .section3 button:active {transform: translateY(5px);}
+
 
 .HeaderLogo,
 li,
